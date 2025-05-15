@@ -1,0 +1,4 @@
+garage-back/node_modules/
+garage-front/node_modules/
+.env
+.DS_Store
