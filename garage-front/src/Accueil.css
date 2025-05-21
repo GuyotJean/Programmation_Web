@@ -1,0 +1,41 @@
+#h1-Card {
+ text-align: center;
+}
+.voiture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.voiture-card {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #ffa1a1;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.voiture-card h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.delete-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: red;
+  transition: transform 0.2s;
+}
+
+.modifyBtn {
+  width: 30%;
+}
